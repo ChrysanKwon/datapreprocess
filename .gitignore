@@ -1,0 +1,5 @@
+data_*
+*.json
+*.txt
+*.names
+*.pth
