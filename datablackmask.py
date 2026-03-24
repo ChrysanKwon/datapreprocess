@@ -19,7 +19,7 @@ def apply_polygon_mask(image_path, polygon_points, output_path):
     masked_image.save(output_path)
 
 # Specify the folder path
-folder_path = r'D:\full_data\last'
+folder_path = r'path/to/your/image/folder'  # CONFIG: base directory containing image subfolders
 
 # Specify the polygon points
 polygon_points = {

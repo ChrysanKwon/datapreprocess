@@ -187,6 +187,6 @@ def main(input_directory, output_directory):
         print(f"Images with area < 256: {image_names}")
 
 if __name__ == "__main__":
-    input_directory = r"D:\full_data\new"
-    output_directory = r"data_all_0830"
+    input_directory = r"path/to/your/xml/data"   # CONFIG: directory containing XML annotation files
+    output_directory = r"path/to/output"          # CONFIG: directory to save COCO JSON output
     main(input_directory, output_directory)

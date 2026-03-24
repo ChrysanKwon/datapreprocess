@@ -109,7 +109,7 @@ def delete_normal_thing(directory):
                     print(f"Deleted JPG file: {jpg_filename}")
 
 def main():
-    directory = r'D:\full_data\new\16road2408'
+    directory = r'path/to/your/xml/data'  # CONFIG: directory containing XML annotation files
     for foldername in os.listdir(directory):
         folderpath = os.path.join(directory, foldername)
         if os.path.isdir(folderpath):
